@@ -1,0 +1,58 @@
+header {
+    height: 75vh;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Añadido para cubrir completamente el área */
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(33, 37, 41); /* Color de enlaces */
+  }
+  
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background-color: rgb(33, 37, 41); /* Color de fondo activo */
+    color: white !important; /* Color de texto activo */
+  }
+  
+  .tab {
+    max-width: 850px;
+    margin: 0 auto; /* Centrar contenido dentro de .tab */
+  }
+  
+  .tab-pane p {
+    max-width: 400px;
+    margin: 0 auto; /* Centrar párrafos dentro de .tab-pane */
+  }
+  
+  .img-tab {
+    width: 100%; /* Cambiado para que la imagen sea responsive */
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .button-tab {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #clientes {
+    height: 60px;
+  }
+  
+  /* Estilos específicos para el footer */
+  #footer {
+    background-color: rgb(33, 37, 41); /* Color de fondo del footer */
+    color: white; /* Color de texto del footer */
+    text-align: center; /* Alinear texto al centro */
+    padding: 20px 0; /* Añadir espacio interno arriba y abajo */
+  }
+  
